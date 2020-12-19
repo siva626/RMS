@@ -1,0 +1,12 @@
+extends default
+
+block content
+  div.container
+    each listing in restateList
+      div.listing
+        div.listing-image(style=`background: url('/images/${listing.imgSrc}') top center
+        no-repeat; background-size: cover;`)
+        h2.type
+          | #{listing.type}
+        a(href=`/listing?id=${listing.id}`)
+          | View Profile

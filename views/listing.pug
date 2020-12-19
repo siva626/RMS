@@ -1,0 +1,11 @@
+extends default
+
+block content
+  div.listing-item
+    div.listing-item-image(style=`background: url('/images/${listing.imgSrc}') top center
+    no-repeat; background-size: cover;`)
+    div.listing-item-details
+      ul
+        each val, key in listing
+          if (key!='imgSrc')
+            li= key + ' : ' +val

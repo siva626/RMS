@@ -1,0 +1,12 @@
+{
+    "name": "rms-portal",
+    "type": "module",
+    "dependencies": {
+        "express": "^4.17.1",
+        "jsonfile": "^6.1.0",
+        "pug": "^2.0.4"
+    },
+    "scripts": {
+        "start": "nodemon server.js"
+    }
+}
