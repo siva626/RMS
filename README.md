@@ -1,4 +1,4 @@
-# RMS
+# RMS -- RealEstate Management System Sample
 
 # How to run 
 
