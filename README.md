@@ -3,7 +3,7 @@
 # How to run 
 Assuming that you already installed git on your system. if not please install git
 # Clone the repository to your local machine using git
-Click Windows key --> type git click on git bash and type the below
+Click Windows key --> type git click on git bash and type the below on the git command prompt
 
 git clone https://github.com/siva626/RMS.git
 
