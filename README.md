@@ -19,4 +19,4 @@ npm start
 
 # this should start you nodejs web server on 7000 port
 
-to verify : open any internet browser and type http://localhost:7000
+to verify : open any internet browser and type http://localhost:7000/Welcome
